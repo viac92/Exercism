@@ -7,9 +7,7 @@ let expectedMinutesInOven = 40
 let remainingMinutesInOven mitutesInTheOven = expectedMinutesInOven - mitutesInTheOven
 
 // TODO: define the 'preparationTimeInMinutes' function
-let preparationTimeInMinutes layer = layer * 2
+let preparationTimeInMinutes layers = layers * 2
 
 // TODO: define the 'elapsedTimeInMinutes' function
-let elapsedTimeInMinutes layer mitutesInTheOven =
-    let timePerLayer = preparationTimeInMinutes layer 
-    timePerLayer + mitutesInTheOven
+let elapsedTimeInMinutes layers mitutesInTheOven = preparationTimeInMinutes layers + mitutesInTheOven
