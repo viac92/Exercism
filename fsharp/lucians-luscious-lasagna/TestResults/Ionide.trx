@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="96651282-c5d7-4d1a-8926-9eedace60915" name="@Niccolos-MacBook-Pro 2023-02-04 13:06:40" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-02-04T13:06:40.9151770+01:00" queuing="2023-02-04T13:06:40.9151770+01:00" start="2023-02-04T13:06:40.3337060+01:00" finish="2023-02-04T13:06:40.9210810+01:00" />
+  <TestSettings name="default" id="4aa1e002-a3da-4cd3-abe9-7ceead892f97">
+    <Deployment runDeploymentRoot="_Niccolos-MacBook-Pro_2023-02-04_13_06_40" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="975d8b0e-c067-4d5c-8662-33ab158fa3bb" testId="217212e6-89b3-38ba-2fe6-dbe404392ce0" testName="LuciansLusciousLasagnaTests.Expected minutes in oven" computerName="Niccolos-MacBook-Pro" duration="00:00:00.0129871" startTime="2023-02-04T13:06:40.8616960+01:00" endTime="2023-02-04T13:06:40.8617070+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="975d8b0e-c067-4d5c-8662-33ab158fa3bb" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LuciansLusciousLasagnaTests.Expected minutes in oven" storage="/users/niccolobaldini/exercism/fsharp/lucians-luscious-lasagna/bin/debug/net7.0/lucianslusciouslasagna.dll" id="217212e6-89b3-38ba-2fe6-dbe404392ce0">
+      <Execution id="975d8b0e-c067-4d5c-8662-33ab158fa3bb" />
+      <TestMethod codeBase="/Users/niccolobaldini/Exercism/fsharp/lucians-luscious-lasagna/bin/Debug/net7.0/LuciansLusciousLasagna.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LuciansLusciousLasagnaTests" name="Expected minutes in oven" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="217212e6-89b3-38ba-2fe6-dbe404392ce0" executionId="975d8b0e-c067-4d5c-8662-33ab158fa3bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 7.0.2)
+[xUnit.net 00:00:00.23]   Discovering: LuciansLusciousLasagna
+[xUnit.net 00:00:00.24]   Discovered:  LuciansLusciousLasagna
+[xUnit.net 00:00:00.25]   Starting:    LuciansLusciousLasagna
+[xUnit.net 00:00:00.28]   Finished:    LuciansLusciousLasagna
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
